@@ -1,9 +1,18 @@
-# Keymap for factory standard PinePhone keyboard
-# Modify the actions column to change what they keys do
-# eg. if you move the keys around from standard
-# I have provided comments to show the positions of the keys
-# If you need to test the inputs then use an event tester
-# Made by Peter Thomason <pthom44@live.com.au>
+# Keymap for factory standard PinePhone keyboard. Modify the actions column to change what they keys do
+#    Copyright (C) 2022  Peter Thomason <pthom44@live.com.au>
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 strings as usual
 compose as usual for "iso-8859-1"
