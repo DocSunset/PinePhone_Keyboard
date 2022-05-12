@@ -2,6 +2,7 @@
 
 Configs and settings for the PinePhone Keyboard
 
+# TTY Settings
 Copy ppkb.map to /usr/local/share/kbd/keymap/pine
 
 On Arch Linux add the following to /etc/vconsole.config
@@ -11,7 +12,7 @@ KEYMAP=/usr/local/share/kbd/keymap/pine/ppkb.map
 See the following for more information:
 https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration
 
-
+# GUI Settings
 For SWMO see changes in 0001-sway-config.patch for ppkb xkb modification, the below is the notes
 Line 7: Input code for ppkb, use swaymsg -t get_inputs to get input code
 Line 8: Set the layout of the keyboard to US
