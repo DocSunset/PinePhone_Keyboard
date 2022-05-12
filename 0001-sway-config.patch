@@ -2,7 +2,7 @@ This adds sway settings for the PinePhone Keyboard to allow inputs of the symbol
 Line 13: Input code for ppkb, use swaymsg -t get_inputs to get input code
 Line 14: Set the layout of the keyboard to US
 Line 15: Set model to ppkb, uses altg for top row |\£€~`-=_+
-Line 16: Need this for US (standard layout), left and right alt are set to same mod, which is mod1, this changes altg to mod3 for ppkb model keys to wrk properly
+Line 16: Need this for US (standard layout), left and right alt are set to same mod, which is mod1, this changes altg to mod3 for ppkb model keys to work properly
 
 --- sway	2022-05-12 12:23:35.635032625 +1000
 +++ .config/sxmo/sway	2022-05-12 12:10:42.268943359 +1000
