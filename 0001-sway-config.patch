@@ -1,0 +1,12 @@
+--- sway	2022-05-12 12:23:35.635032625 +1000
++++ .config/sxmo/sway	2022-05-12 12:10:42.268943359 +1000
+@@ -48,6 +48,11 @@
+ 
+ include /usr/share/sxmo/sway/mobile_inputs_outputs
+ 
++input "0:0:PinePhone_Keyboard" {
++      xkb_layout us
++      xkb_model ppkb
++      xkb_options lv3:ralt_switch
++}
+ 
