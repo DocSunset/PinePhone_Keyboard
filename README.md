@@ -20,3 +20,6 @@ Line 10: Need this for US (standard layout), left and right alt are set to same 
 
 See the following for US layout issues:
 https://wiki.archlinux.org/title/Xmodmap
+
+Need the patches from mobian that has been upsteamed to xkb but best to check:
+https://gitlab.com/mobian1/packages/xkeyboard-config/-/tree/mobian/debian/patches
