@@ -9,6 +9,7 @@ Add ppkb.map to your system
 On Systemd systems add the following:  
 ```bash
 /etc/vconsole.config  
+---
 KEYMAP=/usr/local/share/kbd/keymap/pine/ppkb.map
 ```
 
