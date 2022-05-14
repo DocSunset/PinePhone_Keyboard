@@ -1,0 +1,1 @@
+KERNEL=="pinephone_keyboard", SUBSYSTEM=="module", RUN+="/usr/bin/loadkeys /usr/local/share/kbd/keymap/pine/ppkb.map"
