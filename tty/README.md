@@ -1,8 +1,13 @@
 # TTY Only Settings
 
-Copy PinePhone_Keyboard/tty/ppkb.map to /usr/local/share/kbd/keymap/pine
+Add ppkb.map to your system  
+```
+# mkdir /usr/local/share/kbd/keymap/pine
+# cp ./ppkb.map /usr/local/share/kbd/keymap/pine
+```
 
-On Arch Linux add the following to /etc/vconsole.config
+On Arch Linux add the following:  
+    /etc/vconsole.config
 ```
 KEYMAP=/usr/local/share/kbd/keymap/pine/ppkb.map
 ```
