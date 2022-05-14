@@ -6,13 +6,7 @@ Add ppkb.map to your system
 # cp ./ppkb.map /usr/local/share/kbd/keymap/pine
 ```
 
-On Systemd systems add the following:  
-
----
-
-###### /etc/vconsole.config
-
----
+On Systemd systems add to the following file `/etc/vconsole.config`
 
 ```bash
 KEYMAP=/usr/local/share/kbd/keymap/pine/ppkb.map
