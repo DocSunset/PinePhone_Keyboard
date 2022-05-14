@@ -8,7 +8,10 @@ Add ppkb.map to your system
 
 On Systemd systems add the following:  
 
-/etc/vconsole.config
+---
+
+###### /etc/vconsole.config
+
 ---
 
 ```bash
