@@ -8,7 +8,8 @@ Add ppkb.map to your system
 
 On Systemd systems add the following:  
 
-<p class="codeblock-label">/etc/vconsole.config</p>
+/etc/vconsole.config
+---
 
 ```bash
 KEYMAP=/usr/local/share/kbd/keymap/pine/ppkb.map
