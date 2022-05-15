@@ -6,11 +6,17 @@ Add ppkb.map to your system
 # cp ./ppkb.map /usr/local/share/kbd/keymap/pine
 ```
 
-On Systemd systems add to the following file `/etc/vconsole.config`
+On Systemd systems add `/PinePhone/tty/83-ppkb.rules` to the following drectory `/etc/udev/rules.d` and to trigger the new rule run:  
 
-```bash
-KEYMAP=/usr/local/share/kbd/keymap/pine/ppkb.map
+```
+# udevadm control --reload
+```
+or:  
+
+```
+# udevadm trigger
 ```
 
 See the following for more information:
-https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration
+https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration  
+https://wiki.archlinux.org/title/Udev
