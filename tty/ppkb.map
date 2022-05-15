@@ -16,41 +16,41 @@
 
 strings as usual
 compose as usual for "iso-8859-1"
-keymaps 0-63
+keymaps 0-2,4-6,8-9,12
 
 # Format is as follows
-# {prefix} keycode {id} = {basic action}	{shift action}
+# {prefix} keycode {id} = {basic action}\t{shift action}\t{AltGr action}\t{Control action}
 
 # First Row
 keycode 1  = Escape
-keycode 2  = one	exclam
-keycode 3  = two	at
-keycode 4  = three	numbersign
-keycode 5  = four	dollar
-keycode 6  = five	percent
-keycode 7  = six	asciicircum
-keycode 8  = seven	ampersand
-keycode 9  = eight	asterisk
-keycode 10 = nine	parenleft
-keycode 11 = zero	parenright
-keycode 14 = Delete			# Backspace Key
+keycode 2  = one	exclam	bar
+keycode 3  = two	at	backslash	Control_backslash
+keycode 4  = three	numbersign	euro
+keycode 5  = four	dollar	sterling
+keycode 6  = five	percent	asciitilde
+keycode 7  = six	asciicircum	grave	Control_asciicircum
+keycode 8  = seven	ampersand	minus
+keycode 9  = eight	asterisk	equal
+keycode 10 = nine	parenleft	underscore	Control_underscore
+keycode 11 = zero	parenright	plus
+keycode 14 = Delete
 
 # Second Row
 keycode 15 = Tab
-keycode 16 = q		Q
-keycode 17 = w		W
-keycode 18 = e		E
-keycode 19 = r		R
-keycode 20 = t		T
-keycode 21 = y		Y
-keycode 22 = u		U
-keycode 23 = i		I
-keycode 24 = o		O
-keycode 25 = p		P
+keycode 16 = q		Q	nul	Control_q
+keycode 17 = w		W	nul	Control_w
+keycode 18 = e		E	nul	Control_e
+keycode 19 = r		R	nul	Control_r
+keycode 20 = t		T	nul	Control_t
+keycode 21 = y		Y	nul	Control_y
+keycode 22 = u		U	nul	Control_u
+keycode 23 = i		I	nul	Control_i
+keycode 24 = o		O	nul	Control_o
+keycode 25 = p		P	nul	Control_p
 
 # Fifth Row, second from right and right keys
 keycode 26 = bracketleft	braceleft
-keycode 27 = bracketright	braceright
+keycode 27 = bracketright	braceright	Control_bracketright
 
 # Second Row Enter key
 keycode 28 = Return
@@ -59,15 +59,15 @@ keycode 28 = Return
 keycode 29 = Control
 
 # Third Row
-keycode 30 = a		A
-keycode 31 = s		S
-keycode 32 = d		D
-keycode 33 = f		F
-keycode 34 = g		G
-keycode 35 = h		H
-keycode 36 = j		J
-keycode 37 = k		K
-keycode 38 = l		L
+keycode 30 = a		A	nul	Control_a
+keycode 31 = s		S	nul	Control_s
+keycode 32 = d		D	nul	Control_d
+keycode 33 = f		F	nul	Control_f
+keycode 34 = g		G	nul	Control_g
+keycode 35 = h		H	nul	Control_h
+keycode 36 = j		J	nul	Control_j
+keycode 37 = k		K	nul	Control_k
+keycode 38 = l		L	nul	Control_l
 keycode 39 = semicolon	colon
 
 # Fifth Row, third from right
@@ -75,13 +75,13 @@ keycode 40 = apostrophe	quotedbl
 
 # Fourth Row
 keycode 42 = Shift
-keycode 44 = z		Z
-keycode 45 = x		X
-keycode 46 = c		C
-keycode 47 = v		V
-keycode 48 = b		B
-keycode 49 = n		N
-keycode 50 = m		M
+keycode 44 = z		Z	nul	Control_z
+keycode 45 = x		X	nul	Control_x
+keycode 46 = c		C	nul	Control_c
+keycode 47 = v		V	nul	Control_v
+keycode 48 = b		B	nul	Control_b
+keycode 49 = n		N	nul	Control_n
+keycode 50 = m		M	nul	Control_m
 keycode 51 = comma	less
 keycode 52 = period	greater
 keycode 53 = slash	question
@@ -91,19 +91,19 @@ keycode 56 = Alt
 keycode 57 = space
 
 # First row with Fn key held in
-keycode 59 = F1		bar
-keycode 60 = F2		backslash
-keycode 61 = F3		sterling
-keycode 62 = F4		euro
-keycode 63 = F5		asciitilde
-keycode 64 = F6		grave
-keycode 65 = F7		minus
-keycode 66 = F8		equal
-keycode 67 = F9		underscore
-keycode 68 = F10	plus
+keycode 59 = F1
+keycode 60 = F2
+keycode 61 = F3
+keycode 62 = F4
+keycode 63 = F5
+keycode 64 = F6
+keycode 65 = F7
+keycode 66 = F8
+keycode 67 = F9
+keycode 68 = F10
 
 # Pine key with Fn key held in
-#keycode 99 = Prtsc			# Wasn't able to get this to work
+#keycode 99 = Prtsc
 
 # Fifth Row, right of space bar
 keycode 100 = AltGr
@@ -131,7 +131,7 @@ keycode 110 = Insert
 keycode 111 = Delete
 
 # Third row, left hand pine key
-#keycode 125 = LMeta		# Keycode for the super key (not working in this keymap)
+keycode 125 = # LeftMeta
 
 # Fifth row, second from left
 #keycode 464 = Fn		# Keycode for the function key (not working in this keymap)

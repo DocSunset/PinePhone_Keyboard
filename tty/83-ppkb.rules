@@ -1,1 +1,1 @@
-KERNEL=="pinephone_keyboard", SUBSYSTEM=="module", RUN+="/usr/bin/loadkeys /usr/local/share/kbd/keymap/pine/ppkb.map", RUN+="echo 1 > | tee /sys/class/graphics/fbcon/rotate"
+KERNEL=="pinephone_keyboard", SUBSYSTEM=="module", RUN+="/usr/bin/loadkeys /usr/local/share/kbd/keymap/pine/ppkb.map", RUN+="/usr/bin/echo 1 > /sys/class/graphics/fbcon/rotate"
