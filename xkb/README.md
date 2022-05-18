@@ -6,6 +6,9 @@ XKB Source Information -
 https://gitlab.com/mobian1/packages/xkeyboard-config and,  
 https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/merge_requests/322
 
+Phosh Information -  
+See the following: https://wiki.mobian-project.org/doku.php?id=ppaccessories
+
 SWMO/Sway Information -  
 See changes in `PinePhone_Keyboard/xkb/0001-sway-config.patch` for ppkb xkb modification. Need to add this to your sway config under `$HOME/.config/sxwm/sway`. See the patch notes at the start for information that I have found. I have added the code from the patch below:
 
