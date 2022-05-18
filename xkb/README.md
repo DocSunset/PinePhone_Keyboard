@@ -27,4 +27,4 @@ Check the following locations:
 `/usr/share/X11/xkb/(rules or symbols)`  
 Against the same named files in the directories that follow.
 
-This can be checked by using the tool `diff` on the your local files against the above, or you can inspect the files by hand.
+This can be checked by using the tool `diff` on the your local files against the above, using the script `ppkb_settings_test.sh`, or you can inspect the files by hand.
