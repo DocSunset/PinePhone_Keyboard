@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "Outputting your sway inputs"
+swaymsg -t get_inputs
+echo ""
 echo "Outputting your current xkb settings"
 xmodmap -pm
 echo ""
