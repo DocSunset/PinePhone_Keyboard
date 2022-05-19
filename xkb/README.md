@@ -1,6 +1,6 @@
 # SWMO Configs and Modified xkb files from Undef
 
-The |\£€~-=_+ section of the top row can be accessed using AltG + top row keys. This is set in the xkb settings which were upstreamed by Undef.
+The |\£€~-=_+ section of the top row can be accessed using AltG + top row keys. This is set in the xkb settings which were upstreamed by Undef. This was added in version xkeyboard-conf version > 2.35.1
 
 XKB Source Information -  
 https://gitlab.com/mobian1/packages/xkeyboard-config and,  
