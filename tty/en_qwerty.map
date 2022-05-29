@@ -19,9 +19,6 @@ compose as usual for "iso-8859-1"
 include "linux-keys-bare"
 keymaps 0-2,4-5,8-9,12
 
-# Format is as follows
-# {prefix} keycode {id} = {basic action}\t{shift action}\t{AltGr action}\t{Control action}\t{Control Shift action}\t{Alt action}
-
 # First Row
 keycode 1  = Escape	nul	nul	nul	nul	Meta_Escape
 keycode 2  = one	exclam	bar	nul	nul	Meta_one	Meta_bar
@@ -132,10 +129,10 @@ keycode 110 = Insert
 keycode 111 = Delete	nul		nul	nul	nul	Meta_Delete
 
 # Third row, left hand pine key
-keycode 125 = # LeftMeta
+#keycode 125 = LeftMeta
 
 # Fifth row, second from left
-#keycode 464 = Fn		# Keycode for the function key (not working in this keymap)
+#keycode 464 = Fn
 
 # Top row, first from the left with Fn key held in
-#keycode 465 = Fn_Escape  	# Keycode for the Fn plus Escape Key (not working in this keymap)
+#keycode 465 = Fn_Escape
