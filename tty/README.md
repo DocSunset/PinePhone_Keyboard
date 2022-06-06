@@ -7,9 +7,10 @@ In the future this will only serve to host the udev rule for auto orientation fo
 Add ppkb related files to your system  
 ```bash
 # cp ./ppkb_detector.sh /usr/bin/
+# cp ./83-ppkb.rules /etc/udev/rules.d
 ```
 
-On Systemd systems add `/PinePhone/tty/83-ppkb.rules` to the following directory `/etc/udev/rules.d` and to trigger the new rule run:  
+On Systemd systems trigger the new rule run:  
 
 ```
 # udevadm control --reload
