@@ -1,13 +1,11 @@
 # TTY Only Settings
 
-Good News! The keymap for this has been included in the kbd package:  
+Good News! The keymap for this has been included in the kbd > 2.5.0 package:  
 https://git.kernel.org/pub/scm/linux/kernel/git/legion/kbd.git/tree/data/keymaps/pine/en.map?id=1589e9e1019756b5287b41dddcd7285271c5990e  
 In the future this will only serve to host the udev rule for auto orientation for the screen and loading the keymap.
 
 Add ppkb related files to your system  
 ```bash
-# mkdir /usr/local/share/kbd/keymap/pine
-# cp ./en.map /usr/local/share/kbd/keymap/pine
 # cp ./ppkb_detector.sh /usr/bin/
 ```
 
