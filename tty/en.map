@@ -17,25 +17,25 @@
 strings as usual
 compose as usual for "iso-8859-1"
 include "linux-keys-bare"
-keymaps 0-2,4-5,8-9,12
+keymaps 0-2,4,8-9,12
 
-#            plain,    Shift,      AltGr,      Control,            Control+Shift, Alt,             Alt+Shift, Control+Alt
+#            plain,    Shift,      AltGr,      Control,            Alt,             Alt+Shift, Control+Alt
 # First Row
-keycode 1  = Escape    nul         nul         nul                 nul            Meta_Escape  
-keycode 2  = one       exclam      bar         nul                 nul            Meta_one         Meta_bar
-keycode 3  = two       at          backslash   Control_backslash   nul            Meta_two         Meta_backslash
-keycode 4  = three     numbersign  euro        nul                 nul            Meta_three   
-keycode 5  = four      dollar      sterling    nul                 nul            Meta_four    
-keycode 6  = five      percent     asciitilde  nul                 nul            Meta_five        Meta_asciitilde
-keycode 7  = six       asciicircum grave       Control_asciicircum nul            Meta_six         Meta_grave
-keycode 8  = seven     ampersand   minus       nul                 nul            Meta_seven       Meta_minus
-keycode 9  = eight     asterisk    equal       nul                 nul            Meta_eight       Meta_equal
-keycode 10 = nine      parenleft   underscore  Control_underscore  nul            Meta_nine    
-keycode 11 = zero      parenright  plus        nul                 nul            Meta_zero    
+keycode 1  = Escape    nul         nul         nul                 Meta_Escape  
+keycode 2  = one       exclam      bar         nul                 Meta_one         Meta_bar
+keycode 3  = two       at          backslash   Control_backslash   Meta_two         Meta_backslash
+keycode 4  = three     numbersign  euro        nul                 Meta_three   
+keycode 5  = four      dollar      sterling    nul                 Meta_four    
+keycode 6  = five      percent     asciitilde  nul                 Meta_five        Meta_asciitilde
+keycode 7  = six       asciicircum grave       Control_asciicircum Meta_six         Meta_grave
+keycode 8  = seven     ampersand   minus       nul                 Meta_seven       Meta_minus
+keycode 9  = eight     asterisk    equal       nul                 Meta_eight       Meta_equal
+keycode 10 = nine      parenleft   underscore  Control_underscore  Meta_nine    
+keycode 11 = zero      parenright  plus        nul                 Meta_zero    
 keycode 14 = BackSpace
 
 # Second Row
-keycode 15 = Tab       nul         nul         nul                 nul            Meta_Tab
+keycode 15 = Tab       nul         nul         nul                 Meta_Tab
 keycode 16 = q         Q           nul         Control_q
 keycode 17 = w         W           nul         Control_w
 keycode 18 = e         E           nul         Control_e
@@ -59,7 +59,7 @@ keycode 35 = h         H           nul         Control_h
 keycode 36 = j         J           nul         Control_j
 keycode 37 = k         K           nul         Control_k
 keycode 38 = l         L           nul         Control_l
-keycode 39 = semicolon colon       nul         nul                 nul            Meta_semicolon
+keycode 39 = semicolon colon       nul         nul                 Meta_semicolon
 
 # Fourth Row
 keycode 42 = Shift
@@ -70,20 +70,20 @@ keycode 47 = v         V           nul         Control_v
 keycode 48 = b         B           nul         Control_b
 keycode 49 = n         N           nul         Control_n
 keycode 50 = m         M           nul         Control_m
-keycode 51 = comma     less        nul         nul                 nul            Meta_comma       Meta_less
-keycode 52 = period    greater     nul         nul                 nul            Meta_period      Meta_greater
-keycode 53 = slash     question    nul         nul                 nul            Meta_slash
+keycode 51 = comma     less        nul         nul                 Meta_comma       Meta_less
+keycode 52 = period    greater     nul         nul                 Meta_period      Meta_greater
+keycode 53 = slash     question    nul         nul                 Meta_slash
 
 # Fifth Row
 keycode 29 = Control
 # Fn toggles different layer of keycodes??? (firmware?)
 #keycode 464 = Fn
 keycode 56 = Alt
-keycode 57 = space     nul         nul         nul                 nul            Meta_space
+keycode 57 = space     nul         nul         nul                 Meta_space
 keycode 100 = AltGr
-keycode 40 = apostrophe quotedbl   nul         nul                 nul            Meta_apostrophe
-keycode 26 = bracketleft braceleft nul         nul                 nul            Meta_bracketleft
-keycode 27 = bracketright braceright Control_bracketright nul      nul            Meta_bracketright
+keycode 40 = apostrophe quotedbl   nul         nul                 Meta_apostrophe
+keycode 26 = bracketleft braceleft nul         nul                 Meta_bracketleft
+keycode 27 = bracketright braceright Control_bracketright nul      Meta_bracketright
 
 ########## with Fn key ###############
 
