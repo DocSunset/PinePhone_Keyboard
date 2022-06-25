@@ -19,17 +19,17 @@ compose as usual for "iso-8859-1"
 include "linux-keys-bare"
 keymaps 0-2,4-5,8-9,12
 
-#            plain,    Shift,      AltGr,      Control,            Control+Shift, Alt,         Alt+Shift, Control+Alt
+#            plain,    Shift,      AltGr,      Control,            Control+Shift, Alt,             Alt+Shift, Control+Alt
 # First Row
 keycode 1  = Escape    nul         nul         nul                 nul            Meta_Escape  
-keycode 2  = one       exclam      bar         nul                 nul            Meta_one     Meta_bar
-keycode 3  = two       at          backslash   Control_backslash   nul            Meta_two     Meta_backslash
+keycode 2  = one       exclam      bar         nul                 nul            Meta_one         Meta_bar
+keycode 3  = two       at          backslash   Control_backslash   nul            Meta_two         Meta_backslash
 keycode 4  = three     numbersign  euro        nul                 nul            Meta_three   
 keycode 5  = four      dollar      sterling    nul                 nul            Meta_four    
-keycode 6  = five      percent     asciitilde  nul                 nul            Meta_five    Meta_asciitilde
-keycode 7  = six       asciicircum grave       Control_asciicircum nul            Meta_six     Meta_grave
-keycode 8  = seven     ampersand   minus       nul                 nul            Meta_seven   Meta_minus
-keycode 9  = eight     asterisk    equal       nul                 nul            Meta_eight   Meta_equal
+keycode 6  = five      percent     asciitilde  nul                 nul            Meta_five        Meta_asciitilde
+keycode 7  = six       asciicircum grave       Control_asciicircum nul            Meta_six         Meta_grave
+keycode 8  = seven     ampersand   minus       nul                 nul            Meta_seven       Meta_minus
+keycode 9  = eight     asterisk    equal       nul                 nul            Meta_eight       Meta_equal
 keycode 10 = nine      parenleft   underscore  Control_underscore  nul            Meta_nine    
 keycode 11 = zero      parenright  plus        nul                 nul            Meta_zero    
 keycode 14 = BackSpace
@@ -70,8 +70,8 @@ keycode 47 = v         V           nul         Control_v
 keycode 48 = b         B           nul         Control_b
 keycode 49 = n         N           nul         Control_n
 keycode 50 = m         M           nul         Control_m
-keycode 51 = comma     less        nul         nul                 nul            Meta_comma   Meta_less
-keycode 52 = period    greater     nul         nul                 nul            Meta_period  Meta_greater
+keycode 51 = comma     less        nul         nul                 nul            Meta_comma       Meta_less
+keycode 52 = period    greater     nul         nul                 nul            Meta_period      Meta_greater
 keycode 53 = slash     question    nul         nul                 nul            Meta_slash
 
 # Fifth Row
