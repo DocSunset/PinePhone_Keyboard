@@ -52,7 +52,7 @@ keycode 8  = seven     ampersand   Meta_seven     Meta_ampersand   minus        
 keycode 9  = eight     asterisk    Meta_eight     Meta_asterisk    equal          equal            Meta_equal      Meta_equal
 keycode 10 = nine      parenleft   Meta_nine      Meta_parenleft   underscore     underscore       Meta_underscore Meta_underscore
 keycode 11 = zero      parenright  Meta_zero      Meta_parenright  plus           plus             Meta_plus       Meta_plus
-keycode 14 = BackSpace
+keycode 14 = Delete Delete   Meta_Delete Meta_Delete   Delete         Delete           Meta_Delete     Meta_Delete
 
 #keycode 15 = Tab       Tab         Meta_Tab       Meta_Tab         Meta_Tab       Meta_Tab         Meta_Tab       Meta_Tab
 keycode 15 = AltGr
@@ -129,7 +129,7 @@ control keycode 65 = F17
 control keycode 66 = F18
 control keycode 67 = F19
 control keycode 68 = F11
-keycode 111 = Delete Delete Meta_Delete Meta_Delete Meta_Delete Meta_Delete Meta_Delete Meta_Delete
+keycode 111 = BackSpace BackSpace Meta_BackSpace Meta_BackSpace Meta_BackSpace Meta_BackSpace Meta_BackSpace Meta_BackSpace
 
 # Second row with Fn key held down
 # nothing to do here
