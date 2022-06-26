@@ -1,0 +1,151 @@
+# Keymap for factory standard PinePhone keyboard. Modify the actions column to change what they keys do
+#    Copyright (C) 2022  Peter Thomason <pthom44@live.com.au>
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+strings as usual
+compose as usual for "iso-8859-1"
+
+keymaps 0-7
+
+# main keys
+
+# default ASCII collating sequence maps using the abbreviation described in the manual keymaps(5)
+
+#            0         1           2              3                4              5                6              7
+#            plain     shift       altgr          shift+altgr      control        shift+control    altgr+control  shift+altgr+control
+
+#            plain,    Shift,      AltGr,      Control,            Alt,             Alt+Shift, Control+Alt
+# First Row
+#keycode 1  = Escape    nul         nul         nul                 Meta_Escape  
+#keycode 2  = one       exclam      bar         nul                 Meta_one         Meta_bar
+#keycode 3  = two       at          backslash   Control_backslash   Meta_two         Meta_backslash
+#keycode 4  = three     numbersign  euro        nul                 Meta_three   
+#keycode 5  = four      dollar      sterling    nul                 Meta_four    
+#keycode 6  = five      percent     asciitilde  nul                 Meta_five        Meta_asciitilde
+#keycode 7  = six       asciicircum grave       Control_asciicircum Meta_six         Meta_grave
+#keycode 8  = seven     ampersand   minus       nul                 Meta_seven       Meta_minus
+#keycode 9  = eight     asterisk    equal       nul                 Meta_eight       Meta_equal
+#keycode 10 = nine      parenleft   underscore  Control_underscore  Meta_nine    
+#keycode 11 = zero      parenright  plus        nul                 Meta_zero    
+#keycode 14 = BackSpace
+
+keycode 1  = Escape    Escape      Meta_Escape    Meta_Escape      Meta_Escape    Meta_Escape      Meta_Escape     Meta_Escape
+keycode 2  = one       exclam      Meta_one       Meta_exclam      bar            bar              Meta_bar        Meta_bar
+keycode 3  = two       at          Meta_two       Meta_at          backslash      backslash        Meta_backslash  Meta_backslash
+keycode 4  = three     numbersign  Meta_three     Meta_numbersign  euro           euro             Meta_euro       Meta_euro
+keycode 5  = four      dollar      Meta_four      Meta_dollar      sterling       sterling         Meta_sterling   Meta_sterling
+keycode 6  = five      percent     Meta_five      Meta_percent     asciitilde     asciitilde       Meta_asciitilde Meta_asciitilde
+keycode 7  = six       asciicircum Meta_six       Meta_asciicircum grave          grave            Meta_grave      Meta_grave
+keycode 8  = seven     ampersand   Meta_seven     Meta_ampersand   minus          minus            Meta_minus      Meta_minus
+keycode 9  = eight     asterisk    Meta_eight     Meta_asterisk    equal          equal            Meta_equal      Meta_equal
+keycode 10 = nine      parenleft   Meta_nine      Meta_parenleft   underscore     underscore       Meta_underscore Meta_underscore
+keycode 11 = zero      parenright  Meta_zero      Meta_parenright  plus           plus             Meta_plus       Meta_plus
+keycode 14 = BackSpace BackSpace   Meta_BackSpace Meta_BackSpace   Delete         Delete           Meta_Delete     Meta_Delete
+
+#keycode 15 = Tab       Tab         Meta_Tab       Meta_Tab         Meta_Tab       Meta_Tab         Meta_Tab       Meta_Tab
+keycode 15 = AltGr
+keycode 16 = q
+keycode 17 = w
+keycode 18 = e
+keycode 19 = r
+keycode 20 = t
+keycode 21 = y
+keycode 22 = u
+keycode 23 = i
+keycode 24 = o
+keycode 25 = p
+#keycode 28 = Return
+keycode 28 = AltGr
+
+keycode 125 = Control
+keycode 30 = a
+keycode 31 = s
+keycode 32 = d
+keycode 33 = f
+keycode 34 = g
+keycode 35 = h
+keycode 36 = j
+keycode 37 = k
+keycode 38 = l
+keycode 39 = Control
+#keycode 39 = semicolon colon       Meta_semicolon Meta_colon       Meta_semicolon Meta_colon       Meta_semicolon Meta_colon
+
+keycode 42 = Shift
+keycode 44 = z
+keycode 45 = x
+keycode 46 = c
+keycode 47 = v
+keycode 48 = b
+keycode 49 = n
+keycode 50 = m
+keycode 51 = comma     less        Meta_comma     Meta_less        semicolon          semicolon            Meta_semicolon     Meta_semicolon
+keycode 52 = period    greater     Meta_period    Meta_greater     colon       colon         Meta_colon  Meta_colon
+keycode 53 = Shift
+#keycode 53 = slash     question    Meta_slash     Meta_question    Meta_slash     Meta_question    Meta_slash     Meta_question
+
+
+keycode 29 = Control
+#keycode 464 = Fn
+keycode 56 = Tab
+keycode 57 = space     space       Meta_space     Meta_space       Meta_space     Meta_space       Meta_space     Meta_space
+keycode 100 = Return
+keycode 40 = apostrophe quotedbl   Meta_apostrophe Meta_quotedbl   slash slash   Meta_slash Meta_slash
+keycode 26 = bracketleft braceleft Meta_bracketleft Meta_braceleft question question Meta_question Meta_question
+keycode 27 = bracketright braceright Meta_bracketright Meta_braceright Control_bracketright Meta_braceright Meta_Control_bracketright Meta_braceright
+
+### Fn key held #################################
+
+# First row with Fn key held
+keycode 465 = Fn_Escape
+plain keycode 59 = F1
+plain keycode 60 = F2
+plain keycode 61 = F3
+plain keycode 62 = F4
+plain keycode 63 = F5
+plain keycode 64 = F6
+plain keycode 65 = F7
+plain keycode 66 = F8
+plain keycode 67 = F9
+control keycode 68 = F10
+control keycode 59 = F11
+control keycode 60 = F12
+control keycode 61 = F13
+control keycode 62 = F14
+control keycode 63 = F15
+control keycode 64 = F16
+control keycode 65 = F17
+control keycode 66 = F18
+control keycode 67 = F19
+control keycode 68 = F11
+keycode 111 = Delete Delete Meta_Delete Meta_Delete Meta_Delete Meta_Delete Meta_Delete Meta_Delete
+
+# Second row with Fn key held down
+# nothing to do here
+
+# Third row with Fn key held down
+# PrtSc on the terminal is interpreted as SysRq, which is a lowlevel and dangerous functionality, see wikipedia
+# If you're interested in having this functionality, you can replace 'Compose' with 'Prtsc'
+keycode 99 = Compose
+keycode 110 = Insert
+
+# Fourth row with Fn key held down
+keycode 102 = Home
+keycode 103 = Up
+keycode 107 = End
+
+# Fifth row with Fn key held down
+keycode 105 = Left
+keycode 106 = Right
+keycode 108 = Down
